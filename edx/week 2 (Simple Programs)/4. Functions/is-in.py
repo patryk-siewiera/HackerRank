@@ -7,6 +7,8 @@ def isIn(char, aStr):
     
     returns: True if char is in aStr; False otherwise
     """
+
+    
     for x in aStr:
         if x == char:
             return True

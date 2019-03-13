@@ -1,6 +1,6 @@
-# exercises
+# Python exerices 
 ---
 
 My solutions for :
-- hackerrank,
+- hackerrank (python track),
 - edx MITx pyton course. 
