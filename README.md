@@ -2,5 +2,6 @@
 ---
 
 My solutions for :
-- hackerrank (python track),
+
+- hackerrank, https://www.hackerrank.com/patryksiewiera
 - edx MITx pyton course. 
