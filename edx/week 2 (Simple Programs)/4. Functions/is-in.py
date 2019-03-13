@@ -1,18 +1,22 @@
 # work-in-progress
-
 def isIn(char, aStr):
-    """
-    char: a single character
-    aStr: an alphabetized string
-    
-    returns: True if char is in aStr; False otherwise
-    """
+    lista = aStr  # sort and leave only by one the same letter
+    lista = list(set(aStr))
+    lista.sort()
+    lista = "".join(lista)
 
-    
-    for x in aStr:
-        if x == char:
-            return True
-            break
+    def sorting(lista):
+        place = len(lista) // 2  # center of string
+        print(place)
+        if char == lista[place]:
+            print("tak, tutaj")
+        elif:
+
         else:
-            pass
-    return False  # Your code here
+            print("error")
+
+    sorting(lista)
+    return 0
+
+
+print(isIn("a", "dgfdgdgjfolahowodeorqpppgdtght"))
