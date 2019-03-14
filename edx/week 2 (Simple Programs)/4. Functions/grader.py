@@ -13,6 +13,3 @@ def polysum(n, s):
     output = score + per
     output = round(output, 4)
     return output
-
-
-print(polysum(88, 79))
