@@ -51,3 +51,7 @@ print(li[1])
 #	range(5)	-> tuple -> (0,1,2,3,4)
 # 	range(2,6)	-> tuple -> (2,3,4,5)
 # 	range(5,2,-1)-> tuple->	(5,4,3)
+
+> listA = [1, 4, 3, 0]
+> listB = ['x', 'z', 't', 'q']
+
