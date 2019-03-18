@@ -55,3 +55,6 @@ print(li[1])
 > listA = [1, 4, 3, 0]
 > listB = ['x', 'z', 't', 'q']
 
+# nested lists -> list of lists 
+
+# mutation and iterations 
