@@ -45,13 +45,15 @@ print(li[1])
 # 	list(s)		-> ['a','b','c'] (from string)
 # 	.split()	-> make 2 lists
 # 	'ch'.join(L)-> return string join all elements (with what char)
-#	.sort()		-> sorted(L) -> without changing -> L.sort() -> with change
-#	.reverse()
+# 	.sort()		-> sorted(L) -> without changing -> L.sort() -> with change
+# 	.reverse()
 ##
-#	range(5)	-> tuple -> (0,1,2,3,4)
+# 	range(5)	-> tuple -> (0,1,2,3,4)
 # 	range(2,6)	-> tuple -> (2,3,4,5)
 # 	range(5,2,-1)-> tuple->	(5,4,3)
 
-> listA = [1, 4, 3, 0]
-> listB = ['x', 'z', 't', 'q']
-
+listA = [1, 4, 3, 0]
+listA = ["x", "z", "t", "q"]
+print(listA.sort)
+listA.sort()
+listA.pop()
