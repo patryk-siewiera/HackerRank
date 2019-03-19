@@ -52,8 +52,10 @@ print(li[1])
 # 	range(2,6)	-> tuple -> (2,3,4,5)
 # 	range(5,2,-1)-> tuple->	(5,4,3)
 
-listA = [1, 4, 3, 0]
-listA = ["x", "z", "t", "q"]
-print(listA.sort)
-listA.sort()
-listA.pop()
+
+listA=[1, 4, 3, 0]
+listB = ['x', 'z', 't', 'q']
+
+# nested lists -> list of lists 
+
+# mutation and iterations 
