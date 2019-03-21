@@ -45,17 +45,50 @@ print(li[1])
 # 	list(s)		-> ['a','b','c'] (from string)
 # 	.split()	-> make 2 lists
 # 	'ch'.join(L)-> return string join all elements (with what char)
-#	.sort()		-> sorted(L) -> without changing -> L.sort() -> with change
-#	.reverse()
+# 	.sort()		-> sorted(L) -> without changing -> L.sort() -> with change
+# 	.reverse()
 ##
-#	range(5)	-> tuple -> (0,1,2,3,4)
+# 	range(5)	-> tuple -> (0,1,2,3,4)
 # 	range(2,6)	-> tuple -> (2,3,4,5)
 # 	range(5,2,-1)-> tuple->	(5,4,3)
 
-listA=[1, 4, 3, 0]
-listB = ['x', 'z', 't', 'q']
+listA = [100, 0, 1, 4, 7]
+listB = ["x", "z", "t", "q"]
+listA.extend([4, 1, 6, 3, 4])
 
-# nested lists -> list of lists 
+listA.sort
+print(listA)
 
-# mutation and iterations 
+# nested lists -> list of lists
 
+# mutation and iterations
+
+# Functions as Objects
+# 	functions:
+# 		- have type
+# 		- could be used like data struture
+# 		- can be used in expressions; part of statment or argument to function
+
+
+def applyToEach(L, f):
+    for i in range(len(L)):
+        L[i] = f(L[i])
+    return L
+
+
+L = [60, 80, 100.54]
+
+print(applyToEach(L, int))  # change whole list to int
+
+
+def applyFuns(L1, x1):
+    for f in L1:
+        print(f(x1))
+
+
+applyFuns([abs, int], -4.434)  # list of functions
+
+#	HOP -> higher order of procedure -> map
+print("HOP -> map: ")
+for elt in map(abs, [1,-2,-3,4]):
+	print(elt)
