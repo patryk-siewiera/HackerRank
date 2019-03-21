@@ -3,7 +3,7 @@
 # 	immutable
 # 	tu = ()
 
-# 		really good for:
+# 	really good for:
 # 	swaping values :
 x = 2
 y = 3
@@ -59,6 +59,7 @@ listA.extend([4, 1, 6, 3, 4])
 listA.sort
 print(listA)
 
+
 # nested lists -> list of lists
 
 # mutation and iterations
@@ -92,3 +93,4 @@ applyFuns([abs, int], -4.434)  # list of functions
 print("HOP -> map: ")
 for elt in map(abs, [1,-2,-3,4]):
 	print(elt)
+
