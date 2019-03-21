@@ -28,7 +28,3 @@ def power(b):
 testList = [1, -4, 8, -9]
 applyToEach(testList, power)
 print("power: ", testList)
-
-print("\n#exercise 5")
-
-
