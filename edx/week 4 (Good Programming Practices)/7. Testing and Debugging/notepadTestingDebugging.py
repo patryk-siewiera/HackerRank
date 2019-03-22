@@ -23,7 +23,27 @@ CLASS OF TESTS
 	- what do you expect the input to be? the output to be?
 - document assumptions behind code design 
 
+WHEN ARE YOU READY TO TEST?
+- ensure code runs
+	- remove syntax errors
+	- remove static semantic errors
+	- Python interpreter can usually find these for you
+- have a set of expected results
+	- an input set
+	- for each input, the expected output 
 
+CLASSES OF TESTS:
+- UNIT TESTING
+	- validate each piece of program
+	- TESTING EACH FUNCTION SEPARATLY
+- REGRESSION TESTING
+	- add test for bugs as you find them in a function
+	- CATCH REINTRODUCED errors that were previously fixed
+- INTEGRATION TESTING
+	- does OVERALL PROGRAM WORK?
+	- >>tend to rush to do this<<
 
+TESTING APPROACHES:
+- 
 """
 
