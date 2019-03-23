@@ -44,6 +44,8 @@ CLASSES OF TESTS:
 	- >>tend to rush to do this<<
 
 TESTING APPROACHES:
-- 
+- black box
+
+
 """
 
