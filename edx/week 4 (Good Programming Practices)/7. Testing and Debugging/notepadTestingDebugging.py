@@ -44,7 +44,43 @@ CLASSES OF TESTS:
 	- >>tend to rush to do this<<
 
 TESTING APPROACHES:
-- black box
+- INTUITION - about natural boundaries of the problem:
+can you come up with some natural partitions?
+	- if no natural partitions, might do RANDOM TESTING:
+		- probability that code is correct increases with more tests
+		- better options below:
+
+- BLACK BOX testing
+explore paths through specification
+designed WITHOUT LOOKING at the code
+can be done by someone other than the implementer to avoid some implementer BIASES
+testing can be REUSED if implementation changes
+PATH through specification:
+	- build test cases in different natural space partitions 
+	- also consider boundary conditions (empty lists, singleton list, large numbers, small numbers)
+
+- GLASS BOX testing 
+explore paths through code 
+USE CODE directly to guide design to test cases
+called PATH-COMPLETE if every potential path through code is tested at least once
+- what are some DRAWBACKS of this type of testing?
+	- can go through loops arbitrarily many times
+	- missing paths
+- guidelines
+	- branches -> exercise all parts of a conditional
+	- for loops -> loop not entered / body of loop executed exactly once or more than once
+	- while loops -> same as for loops, cases that catch all ways to exit loop
+ 
+ BUGS:
+ - what you could do:
+ 	- isolate the bugs
+ 	- eradicate the bug
+ 	- retest until code runs correctly
+
+ 
+
+
+
 
 
 """
