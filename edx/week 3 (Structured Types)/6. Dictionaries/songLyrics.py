@@ -10,8 +10,6 @@
 	- IDEA: From song dictionary, find most frequent word. Delete most common word, repeat. It works because you are mutating the song dictionary
 """
 
-# TODO : take song -> convert to dict
-
 # creating a dictionary
 def lyrics_to_frequencies(lyrics):
     myDict = {}
