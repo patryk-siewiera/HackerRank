@@ -53,6 +53,9 @@ else:
 			addIt=new[:1].split(',') #remove trailing \n
 			data.append(addIt)
 finally:
-	fh.close() #close file even if fail
+	fh.close() #close file even if 
+
+
+
 
 
