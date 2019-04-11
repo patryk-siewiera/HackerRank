@@ -54,3 +54,4 @@ else:
 			data.append(addIt)
 finally:
 	fh.close() #close file even if fail
+
