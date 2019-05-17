@@ -10,7 +10,7 @@ WHAT TO DO WITH EXCEPTIONS?
 	 ex -> raise Exception ("descriptive string")
 
 DEALING WITH EXCEPTIONS
-Python code can provide HANDLERS for exceptions	
+Python code can provide HANDLERS for exceptions
 """
 try:
     # in sublime input won't work!
@@ -28,7 +28,6 @@ except:
     print("other bug")
 print("outside")
 
-
 """
 exceptions RAISED by any statement in body of TRY are HANDLED by the EXCEPT statement and executions continues after the body of the EXCEPT statement 
 
@@ -41,17 +40,16 @@ finally:
 """
 
 # example : control unit
-data =[]
+data = []
 file_name = 'file.py'
 try:
-	fh = open(file_name,'r')
+    fh = open(file_name, 'r')
 except IOError:
-	print('cannot open', file_name)
+    print('cannot open', file_name)
 else:
-	for new in fh:
-		if new != '\n':
-			addIt=new[:1].split(',') #remove trailing \n
-			data.append(addIt)
+    for new in fh:
+        if new != '\n':
+            addIt = new[:1].split(',')  # remove trailing \n
+            data.append(addIt)
 finally:
-	fh.close() #close file even if fail
-
+    fh.close()  # close file even if fail
