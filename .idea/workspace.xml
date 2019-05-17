@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/edx/week 4 (Good Programming Practices)/8. Exceptions and Assertions/notepadExceptionsAndAssertions.py" line="25" mnemonic="1" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="975b26d7-4280-457c-a178-cd818ebbec01" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/edx/week 3 (Structured Types)/6. Dictionaries/songLyrics.py" beforeDir="false" afterPath="$PROJECT_DIR$/edx/week 3 (Structured Types)/6. Dictionaries/songLyrics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edx/week 4 (Good Programming Practices)/8. Exceptions and Assertions/notepadExceptionsAndAssertions.py" beforeDir="false" afterPath="$PROJECT_DIR$/edx/week 4 (Good Programming Practices)/8. Exceptions and Assertions/notepadExceptionsAndAssertions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,12 +14,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/edx/week 4 (Good Programming Practices)/8. Exceptions and Assertions/notepadExceptionsAndAssertions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="24" column="106" selection-start-line="24" selection-start-column="106" selection-end-line="24" selection-end-column="106" />
+            <state relative-caret-position="1017">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
             </state>
           </provider>
         </entry>
@@ -35,10 +37,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1268" />
-    <option name="width" value="659" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="527" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -56,20 +58,7 @@
             <path>
               <item name="exercises" type="b2602c69:ProjectViewProjectNode" />
               <item name="exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="edx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="edx" type="462c0819:PsiDirectoryNode" />
-              <item name="week 4 (Good Programming Practices)" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="edx" type="462c0819:PsiDirectoryNode" />
-              <item name="week 4 (Good Programming Practices)" type="462c0819:PsiDirectoryNode" />
-              <item name="8. Exceptions and Assertions" type="462c0819:PsiDirectoryNode" />
+              <item name="HackerRank" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -78,6 +67,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -106,6 +97,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -127,6 +119,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/edx/week 4 (Good Programming Practices)/8. Exceptions and Assertions/notepadExceptionsAndAssertions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -152,8 +145,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553585839363</updated>
+      <workItem from="1558021411403" duration="20000" />
+      <workItem from="1558021515629" duration="139000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="159000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -165,10 +163,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1268" y="0" width="659" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.4262648" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23414376" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -182,10 +180,17 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="4" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/edx/week 4 (Good Programming Practices)/7. Testing and Debugging/notepadTestingDebugging.py">
@@ -204,8 +209,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/edx/week 4 (Good Programming Practices)/8. Exceptions and Assertions/notepadExceptionsAndAssertions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="24" column="106" selection-start-line="24" selection-start-column="106" selection-end-line="24" selection-end-column="106" />
+        <state relative-caret-position="1017">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
     </entry>
