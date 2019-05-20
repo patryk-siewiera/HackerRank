@@ -1,6 +1,15 @@
 from collections import Counter
 
-myList = [1,2,3,2,4,2,23,3,1,4,3,2,4,5]
+numberOfShoes = int(input())
+shoeSizes = Counter(map(int, input().split()))
+nCustomers = int(input())
 
-print (Counter(myList))
-print(Counter(myList).items())
+summary = 0
+
+for _ in range(nCustomers):
+    size, price = (map(int, input().split()))
+    if shoeSizes[size]:
+        summary += price
+        shoeSizes[size] -= 1
+
+print(summary)
