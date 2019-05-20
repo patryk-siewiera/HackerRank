@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c79ac999-88a1-46fb-b3d1-455ea22741d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HackerRank/Numpy/Arrays.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackerRank/Numpy/Concatenate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackerRank/Numpy/Shape and Reshape.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackerRank/Numpy/Transpose and Flatten.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackerRank/Numpy/Zeros and Ones.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRank/Numpy/Concatenate.py" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/Numpy/Concatenate.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,19 +21,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HackerRank/Numpy/Transpose and Flatten.py">
+        <entry file="file://$PROJECT_DIR$/HackerRank/Numpy/Concatenate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="20">
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HackerRank/Numpy/Concatenate.py">
+        <entry file="file://$PROJECT_DIR$/HackerRank/Numpy/Zeros and Ones.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state>
+              <caret selection-end-line="5" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -61,6 +59,7 @@
         <option value="$PROJECT_DIR$/HackerRank/Numpy/Shape and Reshape.py" />
         <option value="$PROJECT_DIR$/HackerRank/Numpy/Transpose and Flatten.py" />
         <option value="$PROJECT_DIR$/HackerRank/Numpy/Concatenate.py" />
+        <option value="$PROJECT_DIR$/HackerRank/Numpy/Zeros and Ones.py" />
       </list>
     </option>
   </component>
@@ -135,7 +134,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Transpose and Flatten">
+  <component name="RunManager" selected="Python.Zeros and Ones">
     <configuration name="Arrays" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,6 +148,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HackerRank/Numpy/Arrays.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Concatenate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="exercises" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HackerRank/Numpy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HackerRank/Numpy/Concatenate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -199,7 +219,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="collectionsCounter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Zeros and Ones" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -207,32 +227,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HackerRank/Collections" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HackerRank/Numpy" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HackerRank/Collections/collectionsCounter.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="scratch" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="exercises" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HackerRank/Numpy/Zeros and Ones.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -243,11 +242,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Zeros and Ones" />
+        <item itemvalue="Python.Concatenate" />
         <item itemvalue="Python.Transpose and Flatten" />
         <item itemvalue="Python.Shape and Reshape" />
         <item itemvalue="Python.Arrays" />
-        <item itemvalue="Python.collectionsCounter" />
-        <item itemvalue="Python.scratch" />
       </list>
     </recent_temporary>
   </component>
@@ -277,12 +276,12 @@
     <frame x="953" y="0" width="974" height="1167" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Structure" order="0" side_tool="true" weight="0.1652587" />
+      <window_info id="Structure" order="0" sideWeight="0.5006974" side_tool="true" weight="0.20300752" />
       <window_info id="Favorites" order="1" side_tool="true" weight="0.32893348" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.20300752" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49930266" visible="true" weight="0.20300752" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49892703" visible="true" weight="0.29150197" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49892703" visible="true" weight="0.29150197" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -372,15 +371,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HackerRank/Numpy/Transpose and Flatten.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="100">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HackerRank/Numpy/Concatenate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="20">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HackerRank/Numpy/Zeros and Ones.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="5" selection-end-column="35" />
         </state>
       </provider>
     </entry>
