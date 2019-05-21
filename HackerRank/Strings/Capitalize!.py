@@ -1,21 +1,17 @@
 #!/bin/python3
 
-# TODO im just checking this
-
-
 import math
 import os
 import random
 import re
 import sys
+import string
 
-
-# Complete the solve function below.
 def solve(s):
-    pass
+    return (' '.join(map(str.capitalize, s.split(' '))))
 
 
 if __name__ == '__main__':
-    # s = input()
-    s = 'asdad agsfgfd'
+    s = input()
     result = solve(s)
+    print(result)
