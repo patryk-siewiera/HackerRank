@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c79ac999-88a1-46fb-b3d1-455ea22741d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/HackerRank/Itertools/Compress the String!.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackerRank/Itertools/itertools combinations with replacements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackerRank/Itertools/itertools combinations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackerRank/Itertools/itertools permutations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackerRank/Itertools/itertools product.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HackerRank/Sets/Check Strict Superset.py" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/Sets/Check Strict Superset.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,11 +32,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HackerRank/Sets/Check Strict Superset.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HackerRank/Itertools/itertools combinations.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="100">
+              <caret line="5" selection-start-line="5" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HackerRank/Itertools/itertools combinations with replacements.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HackerRank/Itertools/Compress the String!.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -81,6 +103,11 @@
         <option value="$PROJECT_DIR$/HackerRank/Sets/The Captain's Room.py" />
         <option value="$PROJECT_DIR$/HackerRank/Sets/Check Subset.py" />
         <option value="$PROJECT_DIR$/HackerRank/Sets/Check Strict Superset.py" />
+        <option value="$PROJECT_DIR$/HackerRank/Basic Data Types/itertools product.py" />
+        <option value="$PROJECT_DIR$/HackerRank/Itertools/itertools permutations.py" />
+        <option value="$PROJECT_DIR$/HackerRank/Itertools/itertools combinations.py" />
+        <option value="$PROJECT_DIR$/HackerRank/Itertools/itertools combinations with replacements.py" />
+        <option value="$PROJECT_DIR$/HackerRank/Itertools/Compress the String!.py" />
       </list>
     </option>
   </component>
@@ -113,7 +140,7 @@
               <item name="exercises" type="b2602c69:ProjectViewProjectNode" />
               <item name="exercises" type="462c0819:PsiDirectoryNode" />
               <item name="HackerRank" type="462c0819:PsiDirectoryNode" />
-              <item name="Sets" type="462c0819:PsiDirectoryNode" />
+              <item name="Itertools" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="exercises" type="b2602c69:ProjectViewProjectNode" />
@@ -137,6 +164,11 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dev\exercises\HackerRank\Itertools" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -149,7 +181,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Check Strict Superset">
+  <component name="RunManager" selected="Python.itertools combinations with replacements">
     <configuration name="Check Strict Superset" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -171,7 +203,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Check Subset" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="itertools combinations with replacements" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -179,11 +211,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HackerRank/Sets" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HackerRank/Itertools" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HackerRank/Sets/Check Subset.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HackerRank/Itertools/itertools combinations with replacements.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -192,7 +224,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Set difference Operation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="itertools combinations" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -200,11 +232,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HackerRank/Sets" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HackerRank/Itertools" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HackerRank/Sets/Set difference Operation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HackerRank/Itertools/itertools combinations.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -213,7 +245,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Set mutations" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="itertools permutations" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -221,11 +253,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HackerRank/Sets" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HackerRank/Itertools" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HackerRank/Sets/Set mutations.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HackerRank/Itertools/itertools permutations.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -234,7 +266,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="The Captain's Room" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="itertools product" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -242,11 +274,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HackerRank/Sets" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HackerRank/Basic Data Types" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HackerRank/Sets/The Captain's Room.py" />
+      <option name="SCRIPT_NAME" value="C:\dev\exercises\HackerRank\Itertools\itertools product.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -257,11 +289,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.itertools combinations with replacements" />
+        <item itemvalue="Python.itertools combinations" />
+        <item itemvalue="Python.itertools permutations" />
+        <item itemvalue="Python.itertools product" />
         <item itemvalue="Python.Check Strict Superset" />
-        <item itemvalue="Python.Check Subset" />
-        <item itemvalue="Python.The Captain's Room" />
-        <item itemvalue="Python.Set mutations" />
-        <item itemvalue="Python.Set difference Operation" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558454060807</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="sets">
+      <created>1558454736084</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558454736084</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -593,6 +632,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/HackerRank/Sets/Check Strict Superset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HackerRank/Itertools/itertools product.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HackerRank/Sets/Check Subset.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -600,10 +653,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HackerRank/Sets/Check Strict Superset.py">
+    <entry file="file://$PROJECT_DIR$/HackerRank/Itertools/itertools permutations.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="9" selection-end-column="13" />
+          <caret selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HackerRank/Itertools/itertools combinations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" selection-start-line="5" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HackerRank/Itertools/itertools combinations with replacements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HackerRank/Itertools/Compress the String!.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
