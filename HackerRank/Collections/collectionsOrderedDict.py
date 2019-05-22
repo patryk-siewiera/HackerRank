@@ -1,5 +1,6 @@
 from collections import OrderedDict
 
+
 def ex1():
     ordered_dictionary = OrderedDict()
     ordered_dictionary['a'] = 1
