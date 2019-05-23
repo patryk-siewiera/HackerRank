@@ -37,14 +37,12 @@ ses, phone numbers, URLs, etc. Learning how to do this within Python will
  ed. Let's get started...
 '''
 
-
 def exString():
     pattern = re.compile(r'we ')  # pattern searching
     matches = pattern.finditer(sentence)  # search
     for match in matches:  # printing place
         print(match)
     print(sentence[38:41])  # there is that word
-
 
 def exDot():
     pat2 = re.compile(r'\.')  # use \ for special characters
