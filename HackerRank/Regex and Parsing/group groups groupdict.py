@@ -12,8 +12,11 @@ word = '..1234fd5678910111fdd213141516171,820212223'
 # m = ''.join(m)
 
 regex = re.compile(r'\d+')
+
+mo = regex.findall(word)
 # mo - matching objects
 
 mo = regex.search(word)
+mo.group(0)
 
-print(mo.group())
+print(mo)
