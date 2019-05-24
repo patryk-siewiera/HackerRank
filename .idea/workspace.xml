@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c79ac999-88a1-46fb-b3d1-455ea22741d0" name="Default Changelist" comment="regex">
+    <list default="true" id="c79ac999-88a1-46fb-b3d1-455ea22741d0" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/HackerRank/Regex and Parsing/group groups groupdict.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -28,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HackerRank/Regex and Parsing/group groups groupdict.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="340">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -399,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558622436433</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="regex">
+      <created>1558625428846</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1558625428846</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView">
@@ -420,7 +427,7 @@
       <window_info content_ui="combo" id="Project" order="2" sideWeight="0.4951857" weight="0.17433155" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285985" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.73382044" visible="true" weight="0.24863088" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.73382044" weight="0.24863088" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3992095" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -823,8 +830,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HackerRank/Regex and Parsing/group groups groupdict.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
