@@ -3,5 +3,5 @@
 
 My solutions for :
 
-- hackerrank, https://www.hackerrank.com/patryksiewiera
+- hackerrank,
 - edx MITx pyton course. 
