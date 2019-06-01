@@ -40,11 +40,18 @@ def solutionShort():
     n = int(input())
     numbersList = list(map(int, input().split()))
 
-    isPositive = (all(int(numbersList[l]) > 0 for l in range(len(numbersList))))  # if numbers are positive
+    isPositive = all(
+        int(numbersList[l]) > 0 for l in range(len(numbersList))
+    )  # if numbers are positive
 
     if isPositive == True:
-        [reverseList.append(int((str(numbersList[w]))[::-1])) for w in range(len(numbersList))]  # put in reveseList
-        print(any(numbersList[i] == reverseList[i] for i in range(len(numbersList))))  # check if any is palindrome
+        [
+            reverseList.append(int((str(numbersList[w]))[::-1]))
+            for w in range(len(numbersList))
+        ]  # put in reveseList
+        print(
+            any(numbersList[i] == reverseList[i] for i in range(len(numbersList)))
+        )  # check if any is palindrome
     else:
         print(False)
 

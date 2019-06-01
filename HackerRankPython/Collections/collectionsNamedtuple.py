@@ -2,7 +2,7 @@ from collections import namedtuple
 
 
 def ex1():
-    point = namedtuple('point', 'x, y')
+    point = namedtuple("point", "x, y")
     pt1 = point(1, 2)
     pt2 = point(3, 4)
     print(pt1, pt2)
@@ -11,8 +11,8 @@ def ex1():
 
 
 def ex2():
-    Car = namedtuple('Car', 'Price Mileage Colour Class')
-    xyz = Car(Price=10000, Mileage=30, Colour='cyan', Class='Y')
+    Car = namedtuple("Car", "Price Mileage Colour Class")
+    xyz = Car(Price=10000, Mileage=30, Colour="cyan", Class="Y")
     print(xyz)
     print(xyz.Class)
 
@@ -34,12 +34,12 @@ lista2 = []
 lista2 = [l_1] + [l_2] + [l_3] + [l_4]
 
 for i in range(len(lista2)):
-    if 'MARKS' == lista2[i][0]:
-        l_Marks = (lista2[i][1:])
+    if "MARKS" == lista2[i][0]:
+        l_Marks = lista2[i][1:]
         l_Marks = list(map(int, l_Marks))
 
 length = len(l_Marks)
 sums = sum(l_Marks)
 score = sums / length
-score_formatted = '{:2.2f}'.format(score)
+score_formatted = "{:2.2f}".format(score)
 print(score_formatted)

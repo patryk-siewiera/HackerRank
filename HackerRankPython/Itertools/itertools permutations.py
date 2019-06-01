@@ -9,4 +9,4 @@ myList = list(permutations((inp[0]), int(inp[1])))
 myList.sort()
 
 for i in range(len(myList)):
-    print(''.join(myList[i]))
+    print("".join(myList[i]))

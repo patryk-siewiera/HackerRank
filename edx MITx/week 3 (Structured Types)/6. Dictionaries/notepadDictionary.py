@@ -76,32 +76,34 @@ in ways that affect other computation
 
 
 def fib(n):
-	global numFibCalls  # acces from outside function
-	numFibCalls += 1
-	if n == 1:
-		return 1
-	elif n == 2:
-		return 2
-	else:
-		return fib(n - 1) + fib(n - 2)
+    global numFibCalls  # acces from outside function
+    numFibCalls += 1
+    if n == 1:
+        return 1
+    elif n == 2:
+        return 2
+    else:
+        return fib(n - 1) + fib(n - 2)
 
-def fib_efficient(n,d):
-	global numFibCalls  # acces from outside function
-	numFibCalls += 1
-	if n in d:
-		return d[n]
-	else:
-		ans=fib_efficient(n-1,d) + fib_efficient(n-2,d)
-		d[n]=ans
-		return ans
+
+def fib_efficient(n, d):
+    global numFibCalls  # acces from outside function
+    numFibCalls += 1
+    if n in d:
+        return d[n]
+    else:
+        ans = fib_efficient(n - 1, d) + fib_efficient(n - 2, d)
+        d[n] = ans
+        return ans
+
+
 # Tracking efficiency
 
 numFibCalls = 0
-print('clasic fib: ', fib(12))
-print('function calls', numFibCalls)
+print("clasic fib: ", fib(12))
+print("function calls", numFibCalls)
 
 numFibCalls = 0
-d ={1:1,2:2}
-print('efficient fib: ', fib_efficient(12,d))
-print('function calls:', numFibCalls)
-
+d = {1: 1, 2: 2}
+print("efficient fib: ", fib_efficient(12, d))
+print("function calls:", numFibCalls)

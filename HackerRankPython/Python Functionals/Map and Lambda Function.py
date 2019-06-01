@@ -24,6 +24,6 @@ def fibonacci(n):
     return output
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     n = int(input())
     print(list(map(cube, fibonacci(n))))

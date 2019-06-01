@@ -24,4 +24,3 @@ for z in range(nx + 1):
                 score.append(output)
 
 print(score)
-

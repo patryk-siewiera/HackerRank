@@ -89,8 +89,7 @@ def applyFuns(L1, x1):
 
 applyFuns([abs, int], -4.434)  # list of functions
 
-#	HOP -> higher order of procedure -> map
+# 	HOP -> higher order of procedure -> map
 print("HOP -> map: ")
-for elt in map(abs, [1,-2,-3,4]):
-	print(elt)
-
+for elt in map(abs, [1, -2, -3, 4]):
+    print(elt)

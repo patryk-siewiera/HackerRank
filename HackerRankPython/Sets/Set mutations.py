@@ -9,7 +9,7 @@
 # listCommands = []
 
 n = int(input())
-mySet = set(map(int,input().split()))
+mySet = set(map(int, input().split()))
 nCommands = int(input())
 listCommands = []
 
@@ -19,13 +19,13 @@ for i in range(nCommands * 2):
 for i in range(len(listCommands) // 2):
     currentEVEN = listCommands[i * 2][0]
     currentODD = map(int, (listCommands[i * 2 + 1][:]))
-    if currentEVEN == 'intersection_update':
+    if currentEVEN == "intersection_update":
         mySet.intersection_update(currentODD)
-    elif currentEVEN == 'update':
+    elif currentEVEN == "update":
         mySet.update(currentODD)
-    elif currentEVEN == 'symmetric_difference_update':
+    elif currentEVEN == "symmetric_difference_update":
         mySet.symmetric_difference_update(currentODD)
-    elif currentEVEN == 'difference_update':
+    elif currentEVEN == "difference_update":
         mySet.difference_update(currentODD)
 
 print(sum(mySet))

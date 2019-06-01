@@ -10,6 +10,6 @@ x = n.real
 y = n.imag
 
 r = cmath.sqrt(pow(x, 2) + pow(y, 2))
-phase = (cmath.phase(complex(x, y)))
+phase = cmath.phase(complex(x, y))
 print(abs(r))
 print(phase)

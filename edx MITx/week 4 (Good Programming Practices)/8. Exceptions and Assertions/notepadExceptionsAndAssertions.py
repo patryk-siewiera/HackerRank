@@ -41,15 +41,15 @@ finally:
 
 # example : control unit
 data = []
-file_name = 'file.py'
+file_name = "file.py"
 try:
-    fh = open(file_name, 'r')
+    fh = open(file_name, "r")
 except IOError:
-    print('cannot open', file_name)
+    print("cannot open", file_name)
 else:
     for new in fh:
-        if new != '\n':
-            addIt = new[:1].split(',')  # remove trailing \n
+        if new != "\n":
+            addIt = new[:1].split(",")  # remove trailing \n
             data.append(addIt)
 finally:
     fh.close()  # close file even if fail
