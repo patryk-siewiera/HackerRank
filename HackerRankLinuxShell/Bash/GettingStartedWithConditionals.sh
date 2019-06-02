@@ -2,6 +2,9 @@
 
 read -n 1 letter
 
-if [[ letter == 'y' ]]; then
-	echo tak
+if [[ $letter == 'y' || $letter == 'Y' ]]; then
+	echo YES
+fi
+if [[ $letter == 'n' || $letter == 'N' ]]; then
+	echo NO
 fi
