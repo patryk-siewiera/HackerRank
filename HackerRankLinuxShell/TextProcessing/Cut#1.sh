@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
-read val1
-read val2
-read val3
+while read val1
+do
+echo $val1 > text.txt
+done
+
+cat text.txt
+
