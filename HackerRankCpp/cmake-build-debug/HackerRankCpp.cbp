@@ -17,8 +17,8 @@
 					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/dev/exercises/HackerRankCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="HackerRankCpp">
-				<Option output="C:/dev/exercises/HackerRankCpp/cmake-build-debug/HackerRankCpp.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="ForLoop">
+				<Option output="C:/dev/exercises/HackerRankCpp/cmake-build-debug/ForLoop.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/dev/exercises/HackerRankCpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -32,14 +32,14 @@
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/dev/exercises/HackerRankCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 HackerRankCpp"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/dev/exercises/HackerRankCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 ForLoop"/>
 					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/dev/exercises/HackerRankCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/dev/exercises/HackerRankCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/dev/exercises/HackerRankCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="HackerRankCpp/fast">
-				<Option output="C:/dev/exercises/HackerRankCpp/cmake-build-debug/HackerRankCpp.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="ForLoop/fast">
+				<Option output="C:/dev/exercises/HackerRankCpp/cmake-build-debug/ForLoop.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/dev/exercises/HackerRankCpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -53,7 +53,7 @@
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/dev/exercises/HackerRankCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 HackerRankCpp/fast"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/dev/exercises/HackerRankCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 ForLoop/fast"/>
 					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/dev/exercises/HackerRankCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/dev/exercises/HackerRankCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/dev/exercises/HackerRankCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -80,8 +80,8 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/dev/exercises/HackerRankCpp/Strings/Strings.cpp">
-			<Option target="HackerRankCpp"/>
+		<Unit filename="C:/dev/exercises/HackerRankCpp/Introduction/ForLoop.cpp">
+			<Option target="ForLoop"/>
 		</Unit>
 		<Unit filename="C:/dev/exercises/HackerRankCpp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

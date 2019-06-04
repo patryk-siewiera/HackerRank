@@ -110,44 +110,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named HackerRankCpp
+# Target rules for targets named ForLoop
 
 # Build rule for target.
-HackerRankCpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 HackerRankCpp
-.PHONY : HackerRankCpp
+ForLoop: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 ForLoop
+.PHONY : ForLoop
 
 # fast build rule for target.
-HackerRankCpp/fast:
-	$(MAKE) -f CMakeFiles\HackerRankCpp.dir\build.make CMakeFiles/HackerRankCpp.dir/build
-.PHONY : HackerRankCpp/fast
+ForLoop/fast:
+	$(MAKE) -f CMakeFiles\ForLoop.dir\build.make CMakeFiles/ForLoop.dir/build
+.PHONY : ForLoop/fast
 
-Strings/Strings.obj: Strings/Strings.cpp.obj
+Introduction/ForLoop.obj: Introduction/ForLoop.cpp.obj
 
-.PHONY : Strings/Strings.obj
+.PHONY : Introduction/ForLoop.obj
 
 # target to build an object file
-Strings/Strings.cpp.obj:
-	$(MAKE) -f CMakeFiles\HackerRankCpp.dir\build.make CMakeFiles/HackerRankCpp.dir/Strings/Strings.cpp.obj
-.PHONY : Strings/Strings.cpp.obj
+Introduction/ForLoop.cpp.obj:
+	$(MAKE) -f CMakeFiles\ForLoop.dir\build.make CMakeFiles/ForLoop.dir/Introduction/ForLoop.cpp.obj
+.PHONY : Introduction/ForLoop.cpp.obj
 
-Strings/Strings.i: Strings/Strings.cpp.i
+Introduction/ForLoop.i: Introduction/ForLoop.cpp.i
 
-.PHONY : Strings/Strings.i
+.PHONY : Introduction/ForLoop.i
 
 # target to preprocess a source file
-Strings/Strings.cpp.i:
-	$(MAKE) -f CMakeFiles\HackerRankCpp.dir\build.make CMakeFiles/HackerRankCpp.dir/Strings/Strings.cpp.i
-.PHONY : Strings/Strings.cpp.i
+Introduction/ForLoop.cpp.i:
+	$(MAKE) -f CMakeFiles\ForLoop.dir\build.make CMakeFiles/ForLoop.dir/Introduction/ForLoop.cpp.i
+.PHONY : Introduction/ForLoop.cpp.i
 
-Strings/Strings.s: Strings/Strings.cpp.s
+Introduction/ForLoop.s: Introduction/ForLoop.cpp.s
 
-.PHONY : Strings/Strings.s
+.PHONY : Introduction/ForLoop.s
 
 # target to generate assembly for a file
-Strings/Strings.cpp.s:
-	$(MAKE) -f CMakeFiles\HackerRankCpp.dir\build.make CMakeFiles/HackerRankCpp.dir/Strings/Strings.cpp.s
-.PHONY : Strings/Strings.cpp.s
+Introduction/ForLoop.cpp.s:
+	$(MAKE) -f CMakeFiles\ForLoop.dir\build.make CMakeFiles/ForLoop.dir/Introduction/ForLoop.cpp.s
+.PHONY : Introduction/ForLoop.cpp.s
 
 # Help Target
 help:
@@ -155,12 +155,12 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... HackerRankCpp
+	@echo ... ForLoop
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Strings/Strings.obj
-	@echo ... Strings/Strings.i
-	@echo ... Strings/Strings.s
+	@echo ... Introduction/ForLoop.obj
+	@echo ... Introduction/ForLoop.i
+	@echo ... Introduction/ForLoop.s
 .PHONY : help
 
 

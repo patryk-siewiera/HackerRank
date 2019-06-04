@@ -64,39 +64,39 @@ CMAKE_SOURCE_DIR = C:\dev\exercises\HackerRankCpp
 CMAKE_BINARY_DIR = C:\dev\exercises\HackerRankCpp\cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/HackerRankCpp.dir
+# Target rules for target CMakeFiles/ForLoop.dir
 
 # All Build rule for target.
-CMakeFiles/HackerRankCpp.dir/all:
-	$(MAKE) -f CMakeFiles\HackerRankCpp.dir\build.make CMakeFiles/HackerRankCpp.dir/depend
-	$(MAKE) -f CMakeFiles\HackerRankCpp.dir\build.make CMakeFiles/HackerRankCpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\dev\exercises\HackerRankCpp\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target HackerRankCpp"
-.PHONY : CMakeFiles/HackerRankCpp.dir/all
+CMakeFiles/ForLoop.dir/all:
+	$(MAKE) -f CMakeFiles\ForLoop.dir\build.make CMakeFiles/ForLoop.dir/depend
+	$(MAKE) -f CMakeFiles\ForLoop.dir\build.make CMakeFiles/ForLoop.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\dev\exercises\HackerRankCpp\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target ForLoop"
+.PHONY : CMakeFiles/ForLoop.dir/all
 
 # Include target in all.
-all: CMakeFiles/HackerRankCpp.dir/all
+all: CMakeFiles/ForLoop.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/HackerRankCpp.dir/rule: cmake_check_build_system
+CMakeFiles/ForLoop.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\dev\exercises\HackerRankCpp\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/HackerRankCpp.dir/all
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/ForLoop.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\dev\exercises\HackerRankCpp\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/HackerRankCpp.dir/rule
+.PHONY : CMakeFiles/ForLoop.dir/rule
 
 # Convenience name for target.
-HackerRankCpp: CMakeFiles/HackerRankCpp.dir/rule
+ForLoop: CMakeFiles/ForLoop.dir/rule
 
-.PHONY : HackerRankCpp
-
-# clean rule for target.
-CMakeFiles/HackerRankCpp.dir/clean:
-	$(MAKE) -f CMakeFiles\HackerRankCpp.dir\build.make CMakeFiles/HackerRankCpp.dir/clean
-.PHONY : CMakeFiles/HackerRankCpp.dir/clean
+.PHONY : ForLoop
 
 # clean rule for target.
-clean: CMakeFiles/HackerRankCpp.dir/clean
+CMakeFiles/ForLoop.dir/clean:
+	$(MAKE) -f CMakeFiles\ForLoop.dir\build.make CMakeFiles/ForLoop.dir/clean
+.PHONY : CMakeFiles/ForLoop.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/ForLoop.dir/clean
 
 .PHONY : clean
 
