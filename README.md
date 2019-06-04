@@ -1,4 +1,4 @@
-# Exerices 
+# Exercises 
 ---
 
 My solutions for :
