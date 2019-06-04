@@ -1,3 +1,0 @@
-C:/dev/exercises/HackerRankCpp/cmake-build-debug/CMakeFiles/ForLoop.dir
-C:/dev/exercises/HackerRankCpp/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/dev/exercises/HackerRankCpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
