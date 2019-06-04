@@ -2,5 +2,5 @@
 
 while read n
 do
-    echo "$n" | cut -c 3
+	echo "$n" | cut -d :
 done
