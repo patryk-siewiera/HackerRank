@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/dev/exercises/HackerRankCpp/main.cpp
+C:/dev/exercises/HackerRankCpp/Strings/Strings.cpp
 iostream
+-
+string
 -
 

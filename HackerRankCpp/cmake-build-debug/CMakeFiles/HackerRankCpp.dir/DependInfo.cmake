@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/dev/exercises/HackerRankCpp/main.cpp" "C:/dev/exercises/HackerRankCpp/cmake-build-debug/CMakeFiles/HackerRankCpp.dir/main.cpp.obj"
+  "C:/dev/exercises/HackerRankCpp/Strings/Strings.cpp" "C:/dev/exercises/HackerRankCpp/cmake-build-debug/CMakeFiles/HackerRankCpp.dir/Strings/Strings.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

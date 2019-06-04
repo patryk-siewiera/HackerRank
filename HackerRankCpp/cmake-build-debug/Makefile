@@ -122,32 +122,32 @@ HackerRankCpp/fast:
 	$(MAKE) -f CMakeFiles\HackerRankCpp.dir\build.make CMakeFiles/HackerRankCpp.dir/build
 .PHONY : HackerRankCpp/fast
 
-main.obj: main.cpp.obj
+Strings/Strings.obj: Strings/Strings.cpp.obj
 
-.PHONY : main.obj
+.PHONY : Strings/Strings.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\HackerRankCpp.dir\build.make CMakeFiles/HackerRankCpp.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+Strings/Strings.cpp.obj:
+	$(MAKE) -f CMakeFiles\HackerRankCpp.dir\build.make CMakeFiles/HackerRankCpp.dir/Strings/Strings.cpp.obj
+.PHONY : Strings/Strings.cpp.obj
 
-main.i: main.cpp.i
+Strings/Strings.i: Strings/Strings.cpp.i
 
-.PHONY : main.i
+.PHONY : Strings/Strings.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\HackerRankCpp.dir\build.make CMakeFiles/HackerRankCpp.dir/main.cpp.i
-.PHONY : main.cpp.i
+Strings/Strings.cpp.i:
+	$(MAKE) -f CMakeFiles\HackerRankCpp.dir\build.make CMakeFiles/HackerRankCpp.dir/Strings/Strings.cpp.i
+.PHONY : Strings/Strings.cpp.i
 
-main.s: main.cpp.s
+Strings/Strings.s: Strings/Strings.cpp.s
 
-.PHONY : main.s
+.PHONY : Strings/Strings.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\HackerRankCpp.dir\build.make CMakeFiles/HackerRankCpp.dir/main.cpp.s
-.PHONY : main.cpp.s
+Strings/Strings.cpp.s:
+	$(MAKE) -f CMakeFiles\HackerRankCpp.dir\build.make CMakeFiles/HackerRankCpp.dir/Strings/Strings.cpp.s
+.PHONY : Strings/Strings.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... HackerRankCpp
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... Strings/Strings.obj
+	@echo ... Strings/Strings.i
+	@echo ... Strings/Strings.s
 .PHONY : help
 
 

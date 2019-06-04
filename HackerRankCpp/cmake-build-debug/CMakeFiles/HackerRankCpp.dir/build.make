@@ -56,27 +56,27 @@ include CMakeFiles/HackerRankCpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/HackerRankCpp.dir/flags.make
 
-CMakeFiles/HackerRankCpp.dir/main.cpp.obj: CMakeFiles/HackerRankCpp.dir/flags.make
-CMakeFiles/HackerRankCpp.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\dev\exercises\HackerRankCpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/HackerRankCpp.dir/main.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HackerRankCpp.dir\main.cpp.obj -c C:\dev\exercises\HackerRankCpp\main.cpp
+CMakeFiles/HackerRankCpp.dir/Strings/Strings.cpp.obj: CMakeFiles/HackerRankCpp.dir/flags.make
+CMakeFiles/HackerRankCpp.dir/Strings/Strings.cpp.obj: ../Strings/Strings.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\dev\exercises\HackerRankCpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/HackerRankCpp.dir/Strings/Strings.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HackerRankCpp.dir\Strings\Strings.cpp.obj -c C:\dev\exercises\HackerRankCpp\Strings\Strings.cpp
 
-CMakeFiles/HackerRankCpp.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HackerRankCpp.dir/main.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dev\exercises\HackerRankCpp\main.cpp > CMakeFiles\HackerRankCpp.dir\main.cpp.i
+CMakeFiles/HackerRankCpp.dir/Strings/Strings.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HackerRankCpp.dir/Strings/Strings.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dev\exercises\HackerRankCpp\Strings\Strings.cpp > CMakeFiles\HackerRankCpp.dir\Strings\Strings.cpp.i
 
-CMakeFiles/HackerRankCpp.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HackerRankCpp.dir/main.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\dev\exercises\HackerRankCpp\main.cpp -o CMakeFiles\HackerRankCpp.dir\main.cpp.s
+CMakeFiles/HackerRankCpp.dir/Strings/Strings.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HackerRankCpp.dir/Strings/Strings.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\dev\exercises\HackerRankCpp\Strings\Strings.cpp -o CMakeFiles\HackerRankCpp.dir\Strings\Strings.cpp.s
 
 # Object files for target HackerRankCpp
 HackerRankCpp_OBJECTS = \
-"CMakeFiles/HackerRankCpp.dir/main.cpp.obj"
+"CMakeFiles/HackerRankCpp.dir/Strings/Strings.cpp.obj"
 
 # External object files for target HackerRankCpp
 HackerRankCpp_EXTERNAL_OBJECTS =
 
-HackerRankCpp.exe: CMakeFiles/HackerRankCpp.dir/main.cpp.obj
+HackerRankCpp.exe: CMakeFiles/HackerRankCpp.dir/Strings/Strings.cpp.obj
 HackerRankCpp.exe: CMakeFiles/HackerRankCpp.dir/build.make
 HackerRankCpp.exe: CMakeFiles/HackerRankCpp.dir/linklibs.rsp
 HackerRankCpp.exe: CMakeFiles/HackerRankCpp.dir/objects1.rsp
