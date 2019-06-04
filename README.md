@@ -1,7 +1,7 @@
-# Python exerices 
+# Exerices 
 ---
 
 My solutions for :
 
-- hackerrank,
+- hackerrank: python, bash shell and c++ track,
 - edx MITx pyton course. 
