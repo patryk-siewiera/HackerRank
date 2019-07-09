@@ -1,0 +1,3 @@
+
+Notice: Array to string conversion in C:\GitHub\exercises\HackerRankProblemSolving\PHP\Warmup\CompareTheTriplets.php on line 35
+Array

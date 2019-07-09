@@ -1,25 +1,19 @@
 <?php
 
-// Complete the aVeryBigSum function below.
-function aVeryBigSum($ar) {
-
-
+function aVeryBigSum($ar)
+{
+//    print_r($ar);       # print whole array
+    $sum = array_sum($ar);
+    return $sum;
 }
 
-$fptr = fopen(getenv("OUTPUT_PATH"), "w");
+function input_array()
+{
+    $handle = fopen("php://stdin", "r");        #open stream stdin
+    fscanf($handle, "%d", $number_of_elements);    #input int into number_of_elements
+    $array = explode(" ", fgets($handle));            # array of items into $array
+    return $array;
+}
 
-$stdin = fopen("php://stdin", "r");
-
-fscanf($stdin, "%d\n", $ar_count);
-
-fscanf($stdin, "%[^\n]", $ar_temp);
-
-$ar = array_map('intval', preg_split('/ /', $ar_temp, -1, PREG_SPLIT_NO_EMPTY));
-
-$result = aVeryBigSum($ar);
-
-fwrite($fptr, $result . "\n");
-
-fclose($stdin);
-fclose($fptr);
-?>
+$array = input_array();
+echo(aVeryBigSum($array));

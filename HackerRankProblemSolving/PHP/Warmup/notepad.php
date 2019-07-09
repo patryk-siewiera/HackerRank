@@ -1,13 +1,6 @@
 <?php
 
-function test($ar)
-{
-    $how_many = count($ar);
-    return $how_many;
-}
+$c = 7;
+$d = 10;
 
-$ar = array("jeden"=>"23", "dwa", "trzy");
-echo(test($ar));
-
-echo $ar["jeden"];
-
+var_dump($c > $d);
