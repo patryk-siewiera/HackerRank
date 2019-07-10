@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3653479-93fa-40d0-b0ce-df3d9ad23222" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Warmup/CompareTheTriplets.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Warmup/PlusMinus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Warmup/Staircase.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Warmup/AVeryBigSum.php" beforeDir="false" afterPath="$PROJECT_DIR$/Warmup/AVeryBigSum.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Warmup/SimpleArraySum.php" beforeDir="false" afterPath="$PROJECT_DIR$/Warmup/SimpleArraySum.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Warmup/notepad.php" beforeDir="false" afterPath="$PROJECT_DIR$/Warmup/notepad.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +51,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -76,7 +75,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562652778791</updated>
-      <workItem from="1562652780169" duration="15663000" />
+      <workItem from="1562652780169" duration="16278000" />
+      <workItem from="1562736493909" duration="1755000" />
+      <workItem from="1562744906968" duration="3250000" />
     </task>
     <servers />
   </component>
@@ -88,7 +89,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
