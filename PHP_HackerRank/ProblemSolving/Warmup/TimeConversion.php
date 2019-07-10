@@ -5,7 +5,6 @@
  */
 function timeConversion($s)
 {
-
     $hour = substr($s, 0, 2);
     $rest = substr($s, 2, 6);
     $am_pm = substr($s, 8, 2);
@@ -20,11 +19,8 @@ function timeConversion($s)
             $hour = '00';
         }
     }
-
-
     $score = $hour . $rest;
     return $score;
-
 }
 
 
