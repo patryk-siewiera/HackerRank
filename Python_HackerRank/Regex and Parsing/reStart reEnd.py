@@ -1,33 +1,57 @@
 import re
 
 
-# TODO reStart reEND
+def delete_letters(word, amount):
+    if amount == 0:
+        return word
+    elif amount > 0:
+        for i in range(len(word)):
+            list_word = list(word)
+            for j in range(amount):
+                list_word[j] = "_"
+
+        string_word = str(list_word)
+        string_word = "".join(list_word)
+        return string_word
 
 
-def ex1():
-    regex = re.compile("\d")
-    words = "gdgdfkjghd1347329478"
-    mo = regex.findall(words)
-    print(mo)
+def search(key, word):
+    m = re.search(key, word)
+    start = m.start()
+    end = m.end() - 1
+
+    score = ()
+    score = score + (start, end)
+    return score
+
+    # print("start = {} ".format(start))
+    # print("end = {} ".format(end))
 
 
-def ex2():
-    # word = input()
-    # key = input()
+def main():
+    word = input()
+    key = input()
 
-    word = "aaadaa"
-    key = "aa"
+    # word = "aaadaa"
+    # key = "a"
+    amount = 0
+    result = set()
+    empty_list = []
+    no_match = (-1, -1)
 
-    regex = re.compile(key)
     for i in range(len(word)):
-        search = re.search(key[:i], word)
-        start = search.start()
-        print(start)
+        amount = i
+        formatted_word = delete_letters(word, amount)
+        try:
+            result.add(search(key, formatted_word))
+        except:
+            pass
 
-    # mo = regex.findall(word)
-    # print(mo)
+    result = sorted(result)
+    for p in result:
+        print(p)
 
+    if result == empty_list:
+        print(no_match)
 
-# ex1()
-
-ex2()
+main()
