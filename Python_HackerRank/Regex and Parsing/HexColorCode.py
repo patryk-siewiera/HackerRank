@@ -1,38 +1,6 @@
 import re
 
-
-def regex_checker(check_this):
-    patern_all = re.compile(r'\#\w{3,6}')
-
-    # search all paterns
-    search_all = re.findall(patern_all, check_this)
-    print(search_all)
-
-    # search css selectors
-    patern_delete = re.compile(r'\#\w{3,6}\n')
-    search_delete = re.findall(patern_delete, check_this)
-    for i in range(len(search_delete)):
-        temp = search_delete[i]
-        temp = temp[:-1]
-        search_delete[i] = temp
-    print(search_delete)
-
-    # delete duplicats
-    final_score = []
-
-    # tutaj !!!!!!!!!!
-
-    for p in search_all:
-        for o in range(len(search_delete)):
-            if (search_delete[o] == p):
-                # #### tu
-                search_all.remove(p)
-                continue
-
-    print(final_score)
-
-
-def input_data():
+def user_input():
     amount = int(input())
     my_list = []
     for i in range(amount):
@@ -40,24 +8,29 @@ def input_data():
     score = ('\n'.join(my_list))
     return score
 
-
 def sample_input():
-    my_str = """11
-#BED
-{
-    color: #FfFdF8; background-color:#aef;
-    font-size: 123px;
-    background: -webkit-linear-gradient(top, #f9f9f9, #fff);
+    my_str = """5
+.shadow {
+-moz-box-shadow: inset 0 0 10px #000000;
+-webkit-box-shadow: inset 0 0 10px #000000;
+box-shadow: inset 0 0 10px #0z00G0;
 }
-#Cab
-{
-    background-color: #ABC;
-    border: 2px dashed #fff;
-}   
     """
     return my_str
 
+def parse_between_brackets(str_to_parse):
+    patern = re.compile(r'{(?:[^{}]*{[^{]*})*[^{}]*}')
+    search = re.findall(patern, str_to_parse)
+    search = "\n".join(search)
+    return search
 
-output_str = input_data()
+def parse_hex_code(str_to_parse):
+    patern_all = re.compile(r'#(?:[a-fA-F0-9]{3}|[a-fA-F0-9]{6})\b')
+    search_all = re.findall(patern_all, str_to_parse)
+    for i in search_all:
+        print(i)
 
-regex_checker(output_str)
+# my_input = user_input()
+my_input = sample_input()
+output_text_brackets = parse_between_brackets(my_input)
+parse_hex_code(output_text_brackets)

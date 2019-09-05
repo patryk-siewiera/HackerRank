@@ -11,9 +11,6 @@ def solution1():
     score = True
     anyScore = False
 
-    # TODO 1) all integers must be positive
-    # TODO 2) any integers should be palindrome
-
     for i in range(len(myList)):
         if myList[i] > 0:  # condition 1: checking if all integers are positive
 
