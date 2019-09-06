@@ -1,7 +1,5 @@
 import re
-from collections import Counter
 
-# TODO: problem -> it count occurence in whole, not in context of previous
 
 # group() - returns one or more subgroups
 # groups() - returns tuple
@@ -14,7 +12,7 @@ def user_input():
 
 
 def sample_input():
-    str_test = '..12345678910111213141516171820212223'
+    str_test = '1234sncsdncsjnsjkdcn'
     return str_test
 
 
@@ -31,22 +29,17 @@ def check_repetition(numbers):
     for j in strNumbers:
         newList.append(j)
 
-    # counted = (Counter(newList))
-    # print(counted.values())
+    for i in range(len(strNumbers) - 2):
+        statement = False
+        sliced_list = (newList[0:i + 2])
+        last_element = sliced_list[-1]
+        last_previous = sliced_list[-2]
 
-    for i in range(len(strNumbers) - 1):
-        sliced_list = (newList[0:i + 1])
-        counted = (Counter(sliced_list))
-        sorted_values = (sorted(counted.values()))
-        sorted_again = (sorted_values[::-1])
+        if last_element == last_previous:
+            statement = True
+            return print(last_element)
 
-        state = False
-
-        if sorted_again[0] > 1:
-            state = True
-            return print(sliced_list[i])
-
-    if (state == False):
+    if statement == False:
         print(-1)
 
 
