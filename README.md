@@ -1,7 +1,12 @@
 # Exercises (mostly python)
 ---
 
-My solutions for :
+- ### HackerRank:
 
-- hackerrank: python, bash shell and c++, php track,
-- edx MITx pyton course. 
+  **python**, 
+  
+  **bash shell** 
+  
+  _and c++, php track._
+  
+- _edx MITx python course._ 
