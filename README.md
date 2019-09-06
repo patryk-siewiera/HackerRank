@@ -1,4 +1,4 @@
-# Exercises 
+# Exercises (mostly python)
 ---
 
 My solutions for :
