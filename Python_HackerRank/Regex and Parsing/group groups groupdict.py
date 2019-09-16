@@ -11,6 +11,7 @@ def user_input():
     return user_inputs
 
 
+
 def sample_input():
     str_test = '1234sncsdncsjnsjkdcn'
     return str_test
